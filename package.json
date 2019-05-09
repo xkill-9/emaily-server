@@ -1,7 +1,7 @@
 {
-  "name": "server",
+  "name": "emaily-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend side of Stephen Grider's course on Fullstack Web Development",
   "main": "index.js",
   "engines": {
     "node": "^8.1.1",

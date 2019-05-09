@@ -1,7 +1,15 @@
+const {
+  GOOGLE_CLIENT_ID,
+  GOOGLE_CLIENT_SECRET,
+  MONGO_URI,
+  COOKIE_KEY,
+  PORT,
+} = process.env;
+
 module.exports = {
-  googleClientID: process.env.GOOGLE_CLIENT_ID,
-  googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
-  mongoURI: process.env.MONGO_URI,
-  cookieKey: process.env.COOKIE_KEY,
-  port: process.env.PORT || 5000,
+  googleClientID: GOOGLE_CLIENT_ID,
+  googleClientSecret: GOOGLE_CLIENT_SECRET,
+  mongoURI: MONGO_URI,
+  cookieKey: COOKIE_KEY,
+  port: PORT || 5000,
 };
